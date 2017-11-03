@@ -8,6 +8,7 @@ namespace OnlineShop.Model.Models
 
     public partial class Menus
     {
+		
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
